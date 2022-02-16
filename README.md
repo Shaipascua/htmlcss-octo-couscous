@@ -20,7 +20,5 @@ This is a repository for all demos, codes, and sample outputs for Lesson 3 **OVE
 
    2. covid.html - apply different html tags to achieve the same output as in /sampleoutputs/02 covid.png
 
-   
-
       
 
