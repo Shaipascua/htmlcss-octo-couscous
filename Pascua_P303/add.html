@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <style>
+
+  form {
+  border: 3px solid #6BB9A1;
+  margin: 100px 200px 200px 200px;
+  background: #F2F2F2;
+}
+
+input[type=text], input[type=tel] {
+  border: none;
+  text-align: left;
+  font-size: 13px;
+  color: #264143;
+  padding: 15px;
+  border-radius: 5px;
+  outline-color: #374785;
+  margin-left: 15px;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+  
+}
+
+.input_container
+{
+  font-size: 15px;
+  margin: 20px 0px 8px 15px;
+  font-weight: bold;
+}
+
+.buttonsubmit
+{
+  background-color: #41B3A3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 20px 20px 20px 400px;
+  outline-color: #374785;
+}
+</style>
+</head>
+<body style="font-family: 'Poppins'; background: #85DCB0; margin-left: 15px;">
+  <form>
+  <div class="Header">
+    <h2 style="text-align: center; font-size: 30px;" >Customer Information Form</h2>
+    <p>Please provide your true information as this will be use for contract tracing.</p>
+  </div>
+  <div class="input_container">
+    <label for="fname"><b>Full Name: </b></label><br>
+    <input type="text" placeholder="Enter Full Name" name="fname" required><br>
+
+    <label for="address"><b>Address: </b></label><br>
+    <input type="text" placeholder="Enter Address" name="address" required><br>
+
+    <label for="contract"><b>Contact Number: </b></label><br>
+    <input type="tel" placeholder="Enter Contact number" name="contact"required><br>
+
+    <label for="temp"><b>Temperature: </b></label><br>
+    <input type="text" placeholder="Enter Body Temperature" name="temp"required><br>
+    <a class="buttonsubmit" type="submit" href="table.html" target="_self">Submit</a>
+  </div>
+  </form>
+</body>
+</html>
